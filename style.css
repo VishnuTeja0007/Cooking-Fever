@@ -93,7 +93,6 @@ body{
 }
 .items a:hover{
     color:#ff007f;
-    text-transform: uppercase;
 }
 
 
@@ -178,6 +177,6 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 /* south indian  recipe */
 
-#south{
+.continued{
     margin-top: 0px;
 }
