@@ -122,6 +122,7 @@ body{
     margin-left: 50px;
 }
 .recipesContainer{
+    margin-left: 40px;
     height: auto;
     width: 100%;
     display: flex;
@@ -177,3 +178,6 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 /* south indian  recipe */
 
+#south{
+    margin-top: 0px;
+}
