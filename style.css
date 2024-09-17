@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    background-color: #f5e7f1;
+    font-family: 'playpen sans';
+}
+body{
+    overflow-x: hidden;
+}
+
+/* navbar */
+
+
+.navbar{
+    background-color: white;
+    height: 85px;
+    width:100%;
+    display: flex;
+    justify-content: space-between ;
+}
+.navfirst{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5%;
+    background-color: white;
+}
+.search{
+    height: 40px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.search input{
+    height: 35px;
+    width: 85%;
+    padding: 4px;
+    text-align: left;
+    border: 2px solid black;
+    border-right: none;
+    padding-left: 10px;
+    background-color: white ;
+    font-size: medium;
+}
+.search span{
+    height: 35px;
+    padding: 4px;
+    width:15% ;
+    border: 2px solid black;
+    border-left: none;
+    background-color: #ff007f;
+}
+#searchlogo{
+    height: 100%;
+    width: 100%;
+    background-color: #ff007f;
+    object-fit: contain;
+}
+.logo{
+    height: 100%;
+    width:50%;
+    background-color: white;
+}
+.tabs{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5%;
+    margin-right: 50px;
+}
+
+#logo{
+    height: 80px;
+    width: auto;
+    margin-left: 50px;
+}
+.items{
+    height: auto;
+    width: auto;
+    background-color: white;
+    font-weight: bold;
+    font-family: 'Playpen Sans';
+    text-align: center;
+    font-size: larger;
+}
+.items a{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+.items a:hover{
+    color:#ff007f;
+    text-transform: uppercase;
+}
+
+
+/* this is body */
+
+.background_image{
+    height: 600px;
+    width: 100%;
+    background-color:#f5e7f1;
+}
+.background_image img{
+    height: 100%;
+    width:100%;
+    margin-top: 25px;
+    object-fit: contain;
+}
+
+/* food cards */
+
+.Heading{
+    height: 50px;
+    width: 100%;
+    padding: 4px;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.recipesContainer{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4%;
+    flex-wrap: wrap;
+    padding: 40px;
+    box-sizing: border-box;
+    padding-bottom: 0;
+}
+.recipes{
+    height: 400px;
+    width: 20%;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom:40px;
+    padding: 10px;
+    background-color: white;
+}
+.recipeimage{
+    height: 350px;
+    width: 100%;
+}
+.recipename{
+    box-sizing: border-box;
+    padding: 6px;
+    height: 40px;
+    margin-top: 4px;
+}
+.image{
+    height: 350px;
+    width: 100%;
+    object-fit: contain;
+}
+.recipename p{
+    display: inline-block;
+    margin-left: 5%;
+    width: 50%;
+    font-weight: bold;
+}
+.recipename a{
+    color: black;
+    margin-left: 5%;
+    width: 35%;
+    font-weight: bold;
+    display: inline-block;
+}
+.recipename a:hover{
+    color: #ff007f;
+    text-transform: capitalize;
+}
+
+
+/* south indian  recipe */
+
